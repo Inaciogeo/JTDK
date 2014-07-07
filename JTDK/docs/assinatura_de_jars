@@ -1,0 +1,7 @@
+# GERANDO KEYSTORE
+keytool -genkey -dname "CN=Funcate, OU=Desenvolvimento, O=Funcate, L=Sao Paulo, ST=SP, C=BR" -alias funcatekey -storepass 123456 -validity 36500
+
+Senha: 123456
+
+# ASSINANDO O JAR (passo desnecessário uma vez que o script do Ant já assina o jtdk.jar)
+jarsigner -storepass 123456 /home/jtdk.jar funcatekey 
