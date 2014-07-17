@@ -49,6 +49,7 @@ public class LineStyleController {
 	/**
 	 * This method initialize the {@link LineStyleView} components.
 	 */
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	private void initComponents() {
 		JComboBox cboLineStyle = this.view.getCboLineStyle();
 		JComboBox cboFinalLine = this.view.getCboFinalLine();
@@ -91,6 +92,7 @@ public class LineStyleController {
 	 * 
 	 * @return
 	 */
+	@SuppressWarnings("rawtypes")
 	private LineStyleVisual createLineStyleVisual() {
 		JComboBox cboLineStyle = this.view.getCboLineStyle();
 		JComboBox cboFinalLine = this.view.getCboFinalLine();
@@ -150,6 +152,7 @@ public class LineStyleController {
 	/**
 	 * Refresh the {@link LineStyleView} components.
 	 */
+	@SuppressWarnings("rawtypes")
 	private void refreshScreen() {
 		JComboBox cboLineStyle = this.view.getCboLineStyle();
 		JComboBox cboFinalLine = this.view.getCboFinalLine();
@@ -221,6 +224,7 @@ public class LineStyleController {
 	/**
 	 * Sets the user selection of {@link LineStyleEnum} in the current visual.
 	 */
+	@SuppressWarnings("rawtypes")
 	public void executeSelectStyle() {
 		JComboBox cboLineStyle = this.view.getCboLineStyle();
 
@@ -234,6 +238,7 @@ public class LineStyleController {
 	/**
 	 * Sets the user selection of {@link LineJoinEnum} in the current visual.
 	 */
+	@SuppressWarnings("rawtypes")
 	public void executeSelectJoin() {
 		JComboBox cboJoinLine = this.view.getCboJoinLine();
 
@@ -247,6 +252,7 @@ public class LineStyleController {
 	/**
 	 * Sets the user selection of {@link LineFinalEnum} in the current visual.
 	 */
+	@SuppressWarnings("rawtypes")
 	public void executeSelectFinal() {
 		JComboBox cboFinalLine = this.view.getCboFinalLine();
 

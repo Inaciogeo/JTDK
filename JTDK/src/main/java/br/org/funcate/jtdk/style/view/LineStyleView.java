@@ -60,13 +60,16 @@ public class LineStyleView extends JDialog {
 	private JPanel pnlColor;
 	private JLabel lblWidth;
 	private JLabel lblLineStyle;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboLineStyle;
 	private JLabel lblFinalLine;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboFinalLine;
 	private JLabel lblJoinLine;
 	private JButton btnSave;
 	private JButton btnCancel;
 	private JPanel buttonPane;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboJoinLine;
 
 	/**
@@ -99,6 +102,7 @@ public class LineStyleView extends JDialog {
 	/**
 	 * Create the dialog.
 	 */
+	@SuppressWarnings("rawtypes")
 	public LineStyleView() {
 		setTitle("Estilo de Linhas");
 		setBounds(100, 100, 450, 542);
@@ -493,6 +497,7 @@ public class LineStyleView extends JDialog {
 	/**
 	 * @return the cboLineStyle
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboLineStyle() {
 		return cboLineStyle;
 	}
@@ -501,6 +506,7 @@ public class LineStyleView extends JDialog {
 	 * @param cboLineStyle
 	 *            the cboLineStyle to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboLineStyle(JComboBox cboLineStyle) {
 		this.cboLineStyle = cboLineStyle;
 	}
@@ -508,6 +514,7 @@ public class LineStyleView extends JDialog {
 	/**
 	 * @return the cboFinalLine
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboFinalLine() {
 		return cboFinalLine;
 	}
@@ -516,6 +523,7 @@ public class LineStyleView extends JDialog {
 	 * @param cboFinalLine
 	 *            the cboFinalLine to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboFinalLine(JComboBox cboFinalLine) {
 		this.cboFinalLine = cboFinalLine;
 	}
@@ -553,6 +561,7 @@ public class LineStyleView extends JDialog {
 	/**
 	 * @return the cboJoinLine
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboJoinLine() {
 		return cboJoinLine;
 	}
@@ -561,6 +570,7 @@ public class LineStyleView extends JDialog {
 	 * @param cboJoinLine
 	 *            the cboJoinLine to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboJoinLine(JComboBox cboJoinLine) {
 		this.cboJoinLine = cboJoinLine;
 	}

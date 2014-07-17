@@ -56,10 +56,12 @@ public class PointStyleView extends JDialog {
 	private JLabel lblSize;
 	private JLabel lblType;
 	private JPanel pnlImage;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboType;
 	private JButton btnFile;
 	private JLabel lblHeight;
 	private JLabel lblTransparency;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboTransparency;
 	private JLabel lblAngle;
 	private JButton btnSave;
@@ -95,6 +97,7 @@ public class PointStyleView extends JDialog {
 	/**
 	 * Create the dialog.
 	 */
+	@SuppressWarnings("rawtypes")
 	public PointStyleView() {
 		setTitle("Estilo de Pontos");
 		setBounds(100, 100, 468, 590);
