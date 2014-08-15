@@ -11,7 +11,6 @@ import br.org.funcate.jtdk.model.dto.FeatureDTO;
 
 import com.vividsolutions.jts.geom.Geometry;
 
-@SuppressWarnings("serial")
 public class TesteJtdk {
 
 	public static void main(String[] args) {
@@ -25,6 +24,7 @@ public class TesteJtdk {
 			while (iterator.hasNext()) {
 				SimpleFeature feature = iterator.next();
 				FeatureDTO featureDTO = new FeatureDTO(feature);
+				@SuppressWarnings("unused")
 				Geometry geometry = (Geometry) featureDTO.getSimpleFeature().getDefaultGeometry();
 			}
 

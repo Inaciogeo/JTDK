@@ -8,6 +8,7 @@ import java.util.EventObject;
  * @author Moraes, Emerson Leite
  *
  */
+@SuppressWarnings("serial")
 public class UndoEvent extends EventObject{
 
 	/**

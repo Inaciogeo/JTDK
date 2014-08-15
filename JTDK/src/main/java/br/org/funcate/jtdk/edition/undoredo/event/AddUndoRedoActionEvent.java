@@ -11,6 +11,7 @@ import br.org.funcate.jtdk.edition.undoredo.UndoRedoActionSet;
  * @author Moraes, Emerson Leite
  *
  */
+@SuppressWarnings("serial")
 public class AddUndoRedoActionEvent extends EventObject{
 
 	private UndoRedoActionSet actionSet;

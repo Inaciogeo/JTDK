@@ -6,6 +6,7 @@ import javax.swing.JFrame;
 
 @SuppressWarnings("serial")
 public class Tela extends JFrame{
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Tela tela = new Tela(null);
 	}

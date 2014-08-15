@@ -673,6 +673,7 @@ public class PointStyleView extends JDialog {
 	/**
 	 * @return the cboType
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboType() {
 		return cboType;
 	}
@@ -681,6 +682,7 @@ public class PointStyleView extends JDialog {
 	 * @param cboType
 	 *            the cboType to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboType(JComboBox cboType) {
 		this.cboType = cboType;
 	}
@@ -703,6 +705,7 @@ public class PointStyleView extends JDialog {
 	/**
 	 * @return the cboTransparency
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboTransparency() {
 		return cboTransparency;
 	}
@@ -711,6 +714,7 @@ public class PointStyleView extends JDialog {
 	 * @param cboTransparency
 	 *            the cboTransparency to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboTransparency(JComboBox cboTransparency) {
 		this.cboTransparency = cboTransparency;
 	}

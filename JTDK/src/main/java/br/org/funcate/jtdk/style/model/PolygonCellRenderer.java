@@ -68,6 +68,7 @@ public class PolygonCellRenderer extends JPanel implements TableCellRenderer {
 	/**
 	 * Box of this canvas.
 	 */
+	@SuppressWarnings("unused")
 	private ReferencedEnvelope box;
 
 	/**

@@ -9,6 +9,7 @@ import java.util.Stack;
  * @author Moraes, Emerson Leite
  *
  */
+@SuppressWarnings("serial")
 public class ClearUndoRedoEvent extends EventObject {
 
 	/**

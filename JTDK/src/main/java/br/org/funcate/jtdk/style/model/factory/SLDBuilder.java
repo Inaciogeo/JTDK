@@ -116,6 +116,7 @@ public class SLDBuilder {
 		this.symbolizers.add(sym);
 	}
 
+	@SuppressWarnings("unused")
 	private Fill createFill(PolygonStyleVisual polygonVisual) {
 		Color areaColor = polygonVisual.getAreaColor();
 		double areaHeight = polygonVisual.getAreaHeight();

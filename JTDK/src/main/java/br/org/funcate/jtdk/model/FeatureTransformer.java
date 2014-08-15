@@ -59,6 +59,7 @@ public class FeatureTransformer {
 		return attributes;
 	}
 
+	@SuppressWarnings("unchecked")
 	public SimpleFeature geoJSONToFeature(Theme theme, String geoJSON) {
 		System.out.println(geoJSON);
 		JSONParser parser = new JSONParser();

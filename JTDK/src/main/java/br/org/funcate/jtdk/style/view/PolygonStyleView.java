@@ -35,12 +35,15 @@ public class PolygonStyleView extends JDialog {
 	private final JPanel contentPanel = new JPanel();
 	private JTextField txtStyleName;
 	private JPanel pnlArea;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboAreaTransparency;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboAreaStyle;
 	private JTextField txtFile;
 	private JButton btnFile;
 	private JTextField txtHeight;
 	private JTextField txtContourWidth;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboContourStyle;
 	private JCheckBox chkbUseImage;
 	private JTable tblVisual;
@@ -54,7 +57,9 @@ public class PolygonStyleView extends JDialog {
 	private JButton btnSave;
 	private JButton btnCancel;
 	private JPanel pnlAreaColor;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboContourFinal;
+	@SuppressWarnings("rawtypes")
 	private JComboBox cboContourJoin;
 	private JPanel pnlContourColor;
 	private JButton btnContourColor;
@@ -89,6 +94,7 @@ public class PolygonStyleView extends JDialog {
 	/**
 	 * Create the dialog.
 	 */
+	@SuppressWarnings("rawtypes")
 	public PolygonStyleView() {
 		setTitle("Estilo de Pol\u00EDgonos");
 		setResizable(false);
@@ -483,6 +489,7 @@ public class PolygonStyleView extends JDialog {
 	/**
 	 * @return the cboAreaTransparency
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboAreaTransparency() {
 		return cboAreaTransparency;
 	}
@@ -491,6 +498,7 @@ public class PolygonStyleView extends JDialog {
 	 * @param cboAreaTransparency
 	 *            the cboAreaTransparency to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboAreaTransparency(JComboBox cboAreaTransparency) {
 		this.cboAreaTransparency = cboAreaTransparency;
 	}
@@ -498,6 +506,7 @@ public class PolygonStyleView extends JDialog {
 	/**
 	 * @return the cboAreaStyle
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboAreaStyle() {
 		return cboAreaStyle;
 	}
@@ -506,6 +515,7 @@ public class PolygonStyleView extends JDialog {
 	 * @param cboAreaStyle
 	 *            the cboAreaStyle to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboAreaStyle(JComboBox cboAreaStyle) {
 		this.cboAreaStyle = cboAreaStyle;
 	}
@@ -573,6 +583,7 @@ public class PolygonStyleView extends JDialog {
 	/**
 	 * @return the cboContourStyle
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboContourStyle() {
 		return cboContourStyle;
 	}
@@ -581,6 +592,7 @@ public class PolygonStyleView extends JDialog {
 	 * @param cboContourStyle
 	 *            the cboContourStyle to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboContourStyle(JComboBox cboContourStyle) {
 		this.cboContourStyle = cboContourStyle;
 	}
@@ -753,6 +765,7 @@ public class PolygonStyleView extends JDialog {
 	/**
 	 * @return the cboContourFinal
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboContourFinal() {
 		return cboContourFinal;
 	}
@@ -761,6 +774,7 @@ public class PolygonStyleView extends JDialog {
 	 * @param cboContourFinal
 	 *            the cboContourFinal to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboContourFinal(JComboBox cboContourFinal) {
 		this.cboContourFinal = cboContourFinal;
 	}
@@ -768,6 +782,7 @@ public class PolygonStyleView extends JDialog {
 	/**
 	 * @return the cboContourJoin
 	 */
+	@SuppressWarnings("rawtypes")
 	public JComboBox getCboContourJoin() {
 		return cboContourJoin;
 	}
@@ -776,6 +791,7 @@ public class PolygonStyleView extends JDialog {
 	 * @param cboContourJoin
 	 *            the cboContourJoin to set
 	 */
+	@SuppressWarnings("rawtypes")
 	public void setCboContourJoin(JComboBox cboContourJoin) {
 		this.cboContourJoin = cboContourJoin;
 	}

@@ -44,6 +44,7 @@ public class PolygonStyleController {
 	/**
 	 * This method initialize the {@link PolygonStyleView} components.
 	 */
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	private void initComponents(){
 		JComboBox cboAreaStyle = this.view.getCboAreaStyle();
 		JComboBox cboContourStyle = this.view.getCboContourStyle();
@@ -112,6 +113,7 @@ public class PolygonStyleController {
 		return style;
 	}
 	
+	@SuppressWarnings("rawtypes")
 	private PolygonStyleVisual createPolygonStyleVisual(){
 		JComboBox cboAreaStyle = this.view.getCboAreaStyle();
 		JComboBox cboContourStyle = this.view.getCboContourStyle();
@@ -143,6 +145,7 @@ public class PolygonStyleController {
 	/**
 	 * Sets the user selection of area transparency factor.
 	 */
+	@SuppressWarnings("rawtypes")
 	public void executeSelectAreaTransparency(){
 		JComboBox cboAreaTransparency = this.view.getCboAreaTransparency();
 		Integer transparency = (Integer) cboAreaTransparency.getSelectedItem();
@@ -155,6 +158,7 @@ public class PolygonStyleController {
 	/**
 	 * Sets the user selection of {@link AreaStyleEnum} in the current visual.
 	 */
+	@SuppressWarnings("rawtypes")
 	public void executeSelectAreaStyle(){
 		JComboBox cboAreaStyle = this.view.getCboAreaStyle();
 		AreaStyleEnum areaStyle = (AreaStyleEnum) cboAreaStyle.getSelectedItem();
@@ -167,6 +171,7 @@ public class PolygonStyleController {
 	/**
 	 * Sets the contour's {@link LineStyleEnum} of the {@link PolygonStyleVisual}.
 	 */
+	@SuppressWarnings("rawtypes")
 	public void executeSelectContourStyle(){
 		JComboBox cboContourStyle = this.view.getCboContourStyle();
 		LineStyleEnum contourStyle = (LineStyleEnum) cboContourStyle.getSelectedItem();
@@ -181,6 +186,7 @@ public class PolygonStyleController {
 	/**
 	 * Sets the contour's {@link LineFinalEnum} of the {@link PolygonStyleVisual}.
 	 */
+	@SuppressWarnings("rawtypes")
 	public void executeSelectContourFinal(){
 		JComboBox cboContourFinal = this.view.getCboContourFinal();
 		LineFinalEnum finalLine = (LineFinalEnum) cboContourFinal.getSelectedItem();
@@ -195,6 +201,7 @@ public class PolygonStyleController {
 	/**
 	 * Sets the contour's {@link LineJoinEnum} of the {@link PolygonStyleVisual}
 	 */
+	@SuppressWarnings("rawtypes")
 	public void executeSelectContourJoin(){
 		JComboBox cboContourJoin = this.view.getCboContourJoin();
 		LineJoinEnum join = (LineJoinEnum) cboContourJoin.getSelectedItem();
@@ -223,6 +230,7 @@ public class PolygonStyleController {
 		this.refreshPreview();
 	}
 	
+	@SuppressWarnings("rawtypes")
 	private void refreshScreen() {
 		JComboBox cboAreaStyle = this.view.getCboAreaStyle();
 		JComboBox cboContourStyle = this.view.getCboContourStyle();

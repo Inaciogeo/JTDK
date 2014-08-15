@@ -35,8 +35,10 @@ import br.org.funcate.jtdk.style.view.PreviewCanvas;
 @SuppressWarnings("serial")
 public class TesteEstilos extends JFrame {
 
+	@SuppressWarnings("unused")
 	private SimpleFeatureBuilder builder;
 
+	@SuppressWarnings("unused")
 	private SimpleFeature polygonFeature;
 
 	private StyleFactory styleFactory;
@@ -59,6 +61,7 @@ public class TesteEstilos extends JFrame {
 		this.repaint();
 	}
 
+	@SuppressWarnings("unused")
 	private Style makePolygonStyle() {
 
 		Mark crossMark = styleFactory.getDefaultMark();
@@ -122,6 +125,7 @@ public class TesteEstilos extends JFrame {
 		return style;
 	}
 
+	@SuppressWarnings("unused")
 	private Style makeLineStyle() {
 		SLDBuilder styleBuilder = new SLDBuilder();
 

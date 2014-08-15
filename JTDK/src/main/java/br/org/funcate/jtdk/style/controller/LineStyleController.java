@@ -367,8 +367,4 @@ public class LineStyleController {
 
 		this.refreshScreen();
 	}
-
-	private void createDefaultVisual() {
-
-	}
 }
